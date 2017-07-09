@@ -1,0 +1,28 @@
+.container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+    background: #000;
+    @media only screen and (min-width: 768px) {
+        width: 100%;
+        max-width: 1200px;
+    }
+    &::after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+}
+
+.black {
+    background: #000;
+}
+
+.red {
+    color: #ff4242;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto; //background: #696969;
+}
